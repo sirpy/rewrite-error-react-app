@@ -1,0 +1,15 @@
+{
+    "cleanUrls": false,
+    "rewrites": [
+        {
+            "source": "/ingest/:path*",
+            "destination": "https://app.posthog.com/:path*"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/ingest/:path*",
+            "destination": "https://app.posthog.com/:path*"
+        }
+    ]
+}
